@@ -2,7 +2,7 @@
 var express = require('express')
 var typeorm = require("typeorm");
 
-var router = express.Router()
+var router = express.Router() 
 module.exports = router
 
 router.get('/', async (req, res, next) => {

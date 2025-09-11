@@ -50,7 +50,7 @@ exports.loginHandler = function (req, res, next) {
     return res.status(401).send()
   }
 };
-
+// Admin login success function
 function adminLoginSuccess(redirectPage, session, username, res) {
   session.loggedIn = 1
 

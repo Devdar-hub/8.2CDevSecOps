@@ -63,7 +63,7 @@ function adminLoginSuccess(redirectPage, session, username, res) {
       return res.redirect('/admin')
   }
 }
-
+// Admin login page
 exports.login = function (req, res, next) {
   return res.render('admin', {
     title: 'Admin Access',

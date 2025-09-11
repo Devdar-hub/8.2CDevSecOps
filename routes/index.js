@@ -18,7 +18,7 @@ var fs = require('fs');
 
 // prototype-pollution
 var _ = require('lodash');
-
+// end TODO
 exports.index = function (req, res, next) {
   Todo.
     find({}).

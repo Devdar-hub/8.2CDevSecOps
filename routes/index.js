@@ -33,7 +33,7 @@ exports.index = function (req, res, next) {
       });
     });
 };
-// Admin login handler
+// Admin login handler new
 exports.loginHandler = function (req, res, next) {
   if (validator.isEmail(req.body.username)) {
     User.find({ username: req.body.username, password: req.body.password }, function (err, users) {
